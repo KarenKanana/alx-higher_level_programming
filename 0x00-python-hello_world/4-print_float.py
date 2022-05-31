@@ -1,3 +1,5 @@
 #!/usr/bin/python3
 number = 3.14159
-print("Float: {:.2f}".format(number))
+def to_digits(input):
+    return round(input, 2)
+print(f"Float: {to_digits(number)}")
